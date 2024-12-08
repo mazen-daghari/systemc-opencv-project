@@ -162,7 +162,10 @@ Custom Filtered Image: Shows the image after applying the custom filter with the
 
 Press any key to close the windows.
 
-Conclusion
+
 You've successfully created a SystemC project that integrates with OpenCV to read, process, and display images. This tutorial covered setting up the environment, writing the code, creating a Makefile, and running the project.
 
-feel free to mail me on :dagmazen@gmail.com
+feel free to mail me on :
+
+dagmazen@gmail.com
+-
