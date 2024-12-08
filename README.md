@@ -1,7 +1,7 @@
 # systemc-opencv-project
--
-systemc opencv guide 
 
+systemc opencv guide 
+-
 
 Let's walk through the entire process of creating a SystemC project that reads an image, applies a black and white filter, applies a custom filter, and displays both the original and processed images using OpenCV. This tutorial will cover everything from setting up your environment to writing and running the code.
 
