@@ -1,8 +1,12 @@
 # systemc-opencv-project
+-
+
 systemc opencv guide 
 Let's walk through the entire process of creating a SystemC project that reads an image, applies a black and white filter, applies a custom filter, and displays both the original and processed images using OpenCV. This tutorial will cover everything from setting up your environment to writing and running the code.
 
 Step 1: Setting Up Your Environment
+-
+
 Install SystemC:
 
 Download SystemC from the Accellera website.
@@ -21,7 +25,11 @@ Create a directory for your project. For example, systemc_opencv_project.
 
 Inside this directory, create two subdirectories: src for source files and include for header files.
 
+
 Step 2: Writing the Code
+-
+
+
 Image Processor Module (image_processor.cpp)
 Create a file named image_processor.cpp in the src directory and add the following code:
 
@@ -95,7 +103,10 @@ int sc_main(int argc, char* argv[]) {
 
     return 0;
 }
+
 Step 3: Creating the Makefile
+-
+
 Create a file named Makefile in the root directory of your project and add the following code:
 
 makefile
@@ -116,7 +127,11 @@ image_processor.o: src/image_processor.cpp
 
 clean:
     rm -f *.o main
+
+    
 Step 4: Compiling and Running the Project
+-
+
 Compile the Project:
 
 Open a terminal and navigate to your project directory.
@@ -133,7 +148,10 @@ Run the executable:
 
 sh
 ./main
+
 Step 5: Observing the Output
+-
+
 The program will display three windows:
 
 Original Image: Shows the original image.
