@@ -171,3 +171,6 @@ feel free to mail me on :
 
 dagmazen@gmail.com
 -
+
+full installation guide (read installation_tutorial.pdf on repository)
+-
